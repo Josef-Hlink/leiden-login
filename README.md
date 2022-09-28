@@ -3,6 +3,10 @@ leiden-login
 
 Follow the instructions (**<5 min**) to never have to deal with copying and pasting verification codes again.
 
+This tool will extract the code as soon as the email hits your inbox and put it in your clipboard.
+
+All you will have to do is wait for the mail, and you can immediately paste the code.
+
 The only prerequisites are that you are on macOS and use the default Mail app to receive emails.
 
 
@@ -10,7 +14,7 @@ demo
 ----
 
 <fig>
-<img src="https://github.com/Josef-Hlink/leiden-login/blob/main/assets/demo.gif" width="960" height="600" alt="User logs in, gets a verification email and can paste the code immediately. The message is then automatically moved to trash."/>
+<img src="https://github.com/Josef-Hlink/leiden-login/blob/main/assets/demo.gif" width="960" alt="User logs in, gets a verification email and can paste the code immediately. The message is then automatically moved to trash."/>
 </fig>
 
 As you can see, this should save you roughly 10 seconds when compared to manually copy-pasting, plus it keeps your inbox from being cluttered with countless verification codes.
@@ -65,7 +69,7 @@ Verification code for Leiden University
 ### step 4
 
 Select the action to perform an applescript (the one you downloaded).
-If the script doesn't show up in this select menu, you can also just open the *magic* location in Finder.
+If the script doesn't show up in this select menu, you can also just open this *magic* location in Finder and just drag the script into this folder.
 
 <fig>
 <img src="https://github.com/Josef-Hlink/leiden-login/blob/main/assets/script-location.png" width="960" alt="Applescript location."/>
