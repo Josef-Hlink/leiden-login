@@ -2,7 +2,6 @@
 -- and probably will work for a while
 -- until Uni Leiden switches it up of course
 
-set targetSender to "noreply@leidenuniv.nl"
 set targetSubject to "Verification code for Leiden University"
 
 tell application "Mail"
@@ -10,7 +9,7 @@ tell application "Mail"
 	set candidateMessages to (messages of inbox whose read status is false)
 	-- loop over messages in reverse order to get the most recent one in case there's multiple
 	repeat with aMsg in reverse of candidateMessages
-		if (aMsg's sender is targetSender) and (aMsg's subject is targetSubject) then
+		if aMsg's subject is targetSubject then
 			set theMsg to aMsg
 			set theContent to theMsg's content
 			-- we need this to delete the message later
