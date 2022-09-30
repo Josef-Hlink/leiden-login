@@ -52,15 +52,14 @@ Click on "Add Rule", you should see this window pop up.
 
 Now you can simply fill in the forms to make it look like this:
 
+_! edit ! _ do not fill in the "From" rule, as this is apparently subject to change, the "Subject" rule should be specific enough.
+
+
 <fig>
 <img src="https://github.com/Josef-Hlink/leiden-login/blob/main/assets/rule-config.png" width="960" alt="Desired configuration for the new rule."/>
 </fig>
 
 For the people who want to copy-paste:
-
-```
-noreply@leidenuniv.nl
-```
 
 ```
 Verification code for Leiden University
