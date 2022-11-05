@@ -1,4 +1,4 @@
--- Works for macOS Monterey 12.6
+-- Works for macOS Ventura (13.0)
 -- and probably will work for a while
 -- until Uni Leiden switches it up of course
 
